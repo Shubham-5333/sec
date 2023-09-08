@@ -1,0 +1,67 @@
+.col-md-6{
+    text-decoration: none;
+}
+.mg{
+    margin-top: 2%;
+    margin-left: 100px;
+    
+}
+.nav-item
+{
+    font-family:Robotosans-serif;
+    margin-left:px;
+    font-size: 92%;
+}
+
+body{
+    padding: 0;
+}
+.grip-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-gap: 0px;
+}
+.vignette{
+    width: 100%;
+
+}
+
+
+.fil{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 180px;
+    color: rgba(999,999,999,0.7);
+    font-family:Robotosans-serif;
+    font-weight: bolder;
+}
+    
+.fol{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 180px;
+    color: rgba(999,999,999,0.7);
+    font-family:Robotosans-serif;
+    font-weight: bolder;
+}
+  
+.rem{
+    text-decoration: none;
+    color: white;
+}
+
+.cont {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .lst{
+    font-size: 65%;
+  }
